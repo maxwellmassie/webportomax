@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1 span {
+    color: #007bff;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important; /* Menetapkan warna teks link menjadi putih */
+}
+
+.nav-link:hover {
+    color: #007bff !important; /* Mengubah warna saat hover */
+}
+
+/* Menambahkan Flexbox pada projek section untuk memastikan semua card memiliki tinggi yang sama */
+#projects .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Mengatur isi card menjadi kolom */
+    height: 100%; /* Mengatur semua card memiliki tinggi penuh dari kontainer */
+}
+
+.card-body {
+    flex-grow: 1; /* Membuat card body tumbuh untuk mengisi ruang yang tersedia */
+}
+
+.card-img-top {
+    height: 200px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar terpotong secara proporsional */
+}
+
+
+iframe {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Customization */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
