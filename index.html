@@ -33,14 +33,37 @@
 
     <!-- Home Section -->
     <section id="home" class="d-flex align-items-center bg-light" style="height: 100vh;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="text-left">
-                <h1 class="display-4 font-weight-bold">Saya <span class="text-primary">Gold Stein Maxwell Massie</span></h1>
-                <p class="lead">Programmer at Psychology Laboratory Gunadarma University | Technology Enthusiast | Undergraduate Informatics Engineering Student at Gunadarma University</p>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-left">
+                    <h1 class="display-4 font-weight-bold">Saya <span class="text-primary">Gold Stein Maxwell Massie</span></h1>
+                    <p class="lead">Programmer at Psychology Laboratory Gunadarma University | Technology Enthusiast | Undergraduate Informatics Engineering Student at Gunadarma University</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/profil max.png" alt="Gambar Profil" class="img-fluid" style="max-width: 300px; margin-top: -50px;">
+                </div>
             </div>
-            <img src="img/profil max.png" alt="Gambar Profil" class="img-fluid" style="max-width: 300px; margin-top: -150px;">
         </div>
     </section>
+
+    <!-- Custom CSS for Mobile Responsiveness -->
+    <style>
+        @media (max-width: 768px) {
+            #home img {
+                max-width: 200px; /* Mengurangi ukuran gambar di mobile */
+                margin-top: -30px; /* Menambah jarak gambar ke atas */
+            }
+
+            #home h1 {
+                font-size: 2.5rem; /* Menyesuaikan ukuran font judul di layar kecil */
+            }
+
+            #home p {
+                font-size: 1rem; /* Menyesuaikan ukuran font deskripsi di layar kecil */
+            }
+        }
+    </style>
+
 
 
 
@@ -112,7 +135,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p class="mb-0">© 2024 Nama Anda. Semua hak dilindungi.</p>
+        <p class="mb-0">© 2024 Maxwell Massie. Semua hak dilindungi.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
